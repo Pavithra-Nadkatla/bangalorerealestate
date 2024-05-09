@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import pandas as pd
-df10=pd.read_csv('/content/my_data.csv')
+df10=pd.read_csv('my_data.csv')
 df10
 
 X = df10.drop(['price'],axis='columns')
