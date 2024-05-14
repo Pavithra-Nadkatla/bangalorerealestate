@@ -25,8 +25,6 @@ model.score(X_test,y_test)
 # Predict y values using the trained model
 y_pred = model.predict(X)
 
-
-
 import streamlit as st
 import pandas as pd
 
